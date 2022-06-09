@@ -5,3 +5,13 @@ numbers.each do |num|
     p num
   end
 end
+
+def under_60(nums)
+  nums.each do |num|
+    if num < 60
+      p num
+    end
+  end
+end
+
+under_60(numbers)
